@@ -5,6 +5,6 @@ import me.gookven.commonsense.api.dto.Comment
 import retrofit2.http.GET
 
 interface PlaceholderApi {
-    @GET("comments")
+    @GET("commentsz")
     fun comments(): Observable<List<Comment>>
 }
